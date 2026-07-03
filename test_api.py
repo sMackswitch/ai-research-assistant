@@ -3,7 +3,7 @@ from google import genai
 
 # 1. Initialize the official Google GenAI client
 # Make sure you've set your environment variable, or paste your key directly: Client(api_key="YOUR_KEY")
-client = genai.Client(api_key="AQ.Ab8RN6JmQ13rGm4xL4rqPWeGLLxethcMLS6QKSywpLo-v7MrIg")
+client = genai.Client()
 
 # 2. Test a basic generation call
 print("Sending test request to Gemini...")

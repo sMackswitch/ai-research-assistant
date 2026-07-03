@@ -1,0 +1,13 @@
+# Ignore the virtual environment
+venv/
+.env
+
+# Ignore your local database storage (users will generate their own)
+chroma_db/
+
+# Ignore any private PDFs you are testing with
+documents/
+
+# Ignore python cache files
+__pycache__/
+*.pyc
